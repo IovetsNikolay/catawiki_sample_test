@@ -24,6 +24,7 @@ export class SearchResultsPage extends BasePage {
   }
 
   async assertPageContainsCards(minCount: number) {
+    await this.lotCardContainerLocator.first().waitFor({ state: 'visible' });
     const count = await this.getLotCardsCount();
     expect(count).toBeGreaterThan(minCount);
   }
