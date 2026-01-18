@@ -4,7 +4,7 @@ import { Tag } from './utils/tags';
 
 export default defineConfig({
   testDir: './tests',
-  fullyParallel: true,
+  fullyParallel: false,
   retries: env.CI ? 2 : 0,
   workers: '80%',
   reporter: [['html'], ['list']],
