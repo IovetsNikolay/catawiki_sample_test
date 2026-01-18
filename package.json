@@ -1,0 +1,22 @@
+{
+  "name": "catawiki-sample-test",
+  "version": "1.0.0",
+  "description": "Catawiki Playwright Tests",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.7"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "envalid": "^8.1.1"
+  }
+}
