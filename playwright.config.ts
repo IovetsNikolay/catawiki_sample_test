@@ -6,7 +6,7 @@ export default defineConfig({
   testDir: './tests',
   fullyParallel: true,
   retries: env.CI ? 2 : 0,
-  workers: env.CI ? 2 : 1,
+  workers: '80%',
   reporter: [['html'], ['list']],
   grep: new RegExp(Tag.UI),
   use: {
