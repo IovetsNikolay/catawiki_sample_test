@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "dotenv": "^17.2.3",
-    "envalid": "^8.1.1"
+    "envalid": "^8.1.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }
