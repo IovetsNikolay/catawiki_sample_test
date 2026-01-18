@@ -1,9 +1,9 @@
 import { test, expect } from '../fixtures/pages';
 import { Tag } from '../utils/tags';
 
-test.describe('UI Tests', { tag: Tag.UI }, () => {
+test.describe('Lot Search Flow', { tag: Tag.UI }, () => {
 
-  test('open main page', async ({ pages }) => {
+  test('search for lots and open lot details page', async ({ pages }) => {
 
     const searchQuery = 'trains';
 
